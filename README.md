@@ -16,6 +16,28 @@
 git clone https://github.com/tatterdemalione/Virtual-Pond.git
 - Open Android SDK and choose import gradle project.  From here you can see all the source code.  In order to run the application you either need to use one of the emulators built in to the Android SDK or using the Android Debug Bridge and connect to an android phone via USB.  
 
+# User Manual
+
+1. Registration: To make a new user or coach, start by opening the app and tap on register. You will be prompted to create a user or coach. The distinction is very important, selecting coach will create an account for you where you are able to approve user attempts to pass skill levels and perform other administrative tasks. The player option prompts you to select a username to login with, a real name to identify yourself as, and a numerical PIN to secure access to the account. Players pick a theme, one of "space", "minions" or "dinosaurs". This cannot be changed afterwards. 
+
+2. Login: Pick coach or player login. You will be prompted for your username and pin and taken to either the user or the player menu if you entered the correct information. A little information for the technically inclined: Login works by using POST to send the data to the .php files on the cse.stfx.ca web server. These php files access the database locally and run queries on the database. If a username/PIN match then you will login with that username!
+
+3. Logout: There is no logout button, just close the app and you will be logged out automatically. 
+
+Player Menu Options:
+
+3. Level: There are 6 levels are provided for the players, which consist of stride, stop, recover, turn, crossover, and backward. Players will not be allowed to pass to the next level until finish the previous one (if the app had full functionality - in the pilot this should be manually managed). And the levels are ordered from easy to hard. The player is coached on the skill with a themed storyline and then watches the video. After watching the video, you can replay the video, return to the level screen or notify the coach of skill completion. Notifying the coach is the cue for the coach to make the corresponding course on the ice and check if the player knows the skill.
+
+4. Profile: The user views their profile, which contains their information, avatar and the points they have accumulated. Points don't work properly, so they won't have any in this version of the app.
+
+5. Game: The user should be able to make their own course or view presets and then "play their games". This functionality does not work in this version.
+
+Coach Menu Options:
+
+6. View Players: This should allow you to view a list of all the players, view their information and give them points. It does not work in this version.
+
+7. View Notifications: This should allow you to view a list of all the level completion notifications and game creation notifications and ratify them. It does not work in this version.
+
 
 
 
