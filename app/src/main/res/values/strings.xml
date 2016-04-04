@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Virtual Pond</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="theme_array">
+        <item>Minions</item>
+        <item>Dinosaurs</item>
+        <item>Space</item>
+    </string-array>
+</resources>
