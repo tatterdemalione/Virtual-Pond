@@ -24,7 +24,7 @@ git clone https://github.com/tatterdemalione/Virtual-Pond.git
 
 3. Logout: There is no logout button, just close the app and you will be logged out automatically. 
 
-Player Menu Options:
+## Player Menu Options:
 
 3. Level: There are 6 levels are provided for the players, which consist of stride, stop, recover, turn, crossover, and backward. Players will not be allowed to pass to the next level until finish the previous one (if the app had full functionality - in the pilot this should be manually managed). And the levels are ordered from easy to hard. The player is coached on the skill with a themed storyline and then watches the video. After watching the video, you can replay the video, return to the level screen or notify the coach of skill completion. Notifying the coach is the cue for the coach to make the corresponding course on the ice and check if the player knows the skill.
 
@@ -32,7 +32,7 @@ Player Menu Options:
 
 5. Game: The user should be able to make their own course or view presets and then "play their games". This functionality does not work in this version.
 
-Coach Menu Options:
+## Coach Menu Options:
 
 6. View Players: This should allow you to view a list of all the players, view their information and give them points. It does not work in this version.
 
