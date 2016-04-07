@@ -1,4 +1,5 @@
 # Virtual-Pond
+Authors: Aaron Massicotte, Zihao Jiang, Noah Ritcey, Yunfeng Shangguan, Yi Yan, Brennan Neve, Yiyi Yan.
 
   Virtual pond is an android application intended to encourage young kids with autism spectrum disorder develop their skating skills through the use of themed visual content and interactive gameplay. The application is still in "pilot" mode and as such not all of the features have been developed as of yet.
   
